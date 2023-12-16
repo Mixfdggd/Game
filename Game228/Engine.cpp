@@ -52,6 +52,7 @@ Engine::Engine()
 	buffer1.loadFromFile("menu1.ogg");
 	sound_focus.setBuffer(buffer1);
 	buffer2.loadFromFile("menu2.ogg");
+	//GG
 	sound_click.setBuffer(buffer2);
 	buffer3.loadFromFile("123.ogg");
 	sound_explose.setBuffer(buffer3);
@@ -61,11 +62,11 @@ Engine::Engine()
 	sound_coin.setBuffer(buffer4);
 	Menu_music3.openFromFile("aaaaa.ogg");
 	Menu_music.setLoop(true);
-	Menu_music.openFromFile("Synthwave-Goose-—-Can_t-Forget-_www.lightaudio.ru_.ogg");
+	Menu_music.openFromFile("Synthwave-Goose-ï¿½-Can_t-Forget-_www.lightaudio.ru_.ogg");
 	Menu_music.setLoop(true);
-	Menu_music1.openFromFile("Synthwave-Goose-—-Tyumen-1985-_www.lightaudio.ru_.ogg");
+	Menu_music1.openFromFile("Synthwave-Goose-ï¿½-Tyumen-1985-_www.lightaudio.ru_.ogg");
 	Menu_music1.setLoop(true);
-	Menu_music2.openFromFile("Synthwave-Station-—-In-My-Dreams-_www.lightaudio.ru_.ogg");
+	Menu_music2.openFromFile("Synthwave-Station-ï¿½-In-My-Dreams-_www.lightaudio.ru_.ogg");
 	Menu_music2.setLoop(true);
 	Menu_music.setVolume(20);
 	Menu_music1.setVolume(20);
